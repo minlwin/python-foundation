@@ -4,11 +4,13 @@ Welcome to the Python Foundation Course! This course is designed to give you a s
 
 ## Course Outline
 ### Chapter 1 : Hello Python
-Getting started with Python and writing your first program.<br/>
+This chapter introduces the Python development workflow. You will learn how to set up your environment, write and run Python programs, create tests with pytest, and debug code in VS Code.<br/>
+
 [Learn Chapter 1](Chapter01/README.md)
 
 ### Chapter 2 : Variable and Basic Data Types 
-Understanding Python variables, numbers, strings, and other fundamental data types.<br/>
+In this chapter, we will explore one of the fundamental concepts in Python: variables and basic data types. Variables are used to store data that your program can manipulate, while data types define the kind of values a variable can hold, such as numbers, text, or logical values.<br/>
+
 [Learn Chapter 2](Chapter02/README.md)
 
 ### Chapter 3 : Writing Statements
