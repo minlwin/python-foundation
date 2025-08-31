@@ -373,3 +373,6 @@ Python provides several fundamental data types:
 - Dictionaries represent structured mappings, similar to real-world data records.
 
 ✅ Summary: Variables give names to values, and Python’s basic data types define what kind of values we can store and manipulate. Together, they form the foundation of every Python program.
+
+After learning about this chapter, you have to try assignment.<br/>
+[Got to Assignment](assignment/README.md)
