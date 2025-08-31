@@ -189,3 +189,6 @@ tests/test_hello.py .                                                           
 
 ============================================= 1 passed in 0.00s =============================================
 ```
+
+After learning about this chapter, you have to try assignment.<br/>
+[Got to Assignment](assignment/README.md)
