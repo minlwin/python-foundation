@@ -91,7 +91,6 @@ print(a > b)   # True → '>' compares two values
 ### Examples of Operators
 
 1. Arithmetic Operators
-<nowiki>
 ```
 x = 10
 y = 3
@@ -103,10 +102,8 @@ print(x % y)   # 1  (remainder)
 print(x // y)  # 3  (floor division)
 print(x ** y)  # 1000 (power: 10^3)
 ```
-</nowiki>
 
 2. Comparison Operators
-<nowiki>
 ```
 a = 5
 b = 8
@@ -115,10 +112,8 @@ print(a != b)  # True
 print(a < b)   # True
 print(a >= b)  # False
 ```
-</nowiki>
 
 3. Logical Operators
-<nowiki>
 ```
 x = True
 y = False
@@ -126,10 +121,8 @@ print(x and y)  # False
 print(x or y)   # True
 print(not x)    # False
 ```
-</nowiki>
 
 4. Assignment Operators
-<nowiki>
 ```
 num = 10
 num += 5   # same as num = num + 5
@@ -138,19 +131,15 @@ print(num)  # 15
 num *= 2   # same as num = num * 2
 print(num)  # 30
 ```
-</nowiki>
 
 5. Membership Operators
-<nowiki>
 ```
 fruits = ["apple", "banana", "cherry"]
 print("apple" in fruits)      # True
 print("mango" not in fruits)  # True
 ```
-</nowiki>
 
 6. Identity Operators
-<nowiki>
 ```
 a = [1, 2, 3]
 b = a
@@ -160,40 +149,33 @@ print(a is b)      # True  (same object in memory)
 print(a is c)      # False (different object, same content)
 print(a is not c)  # True
 ```
-</nowiki>
 
 ### ⚠️ Common Mistakes with Operators
 
 1. Using = instead of ==
 - = is assignment, == is comparison.
-<nowiki>
 ```
 x = 5
 print(x == 5)   # True
 ```
-</nowiki>
 
 2. Confusing is with ==
 - == checks if values are equal.
 - is checks if two variables point to the same object in memory.
-<nowiki>
 ```
 a = [1, 2]
 b = [1, 2]
 print(a == b)   # True (same content)
 print(a is b)   # False (different objects)
 ```
-</nowiki>
 
 3. Forgetting floor division vs. normal division
 - / always returns a float.
 - // returns the integer (floor) result.
-<nowiki>
 ```
 print(7 / 2)   # 3.5
 print(7 // 2)  # 3
 ```
-</nowiki>
 
 ### Summary
 - Operators are symbols that tell Python to perform actions on values.
@@ -248,27 +230,22 @@ An expression statement is a statement that consists of just a single expression
 
 1. Evaluating values in REP<br />
 In the Python interactive shell (REPL), you can type an expression, and Python will immediately show its value.
-<nowiki>
 ```
 >>> 2 + 3
 5
 >>> "Hello".upper()
 'HELLO'
 ```
-</nowiki>
 
 2. Assigning a value to a variable<br/>
 Assignments use expressions to calculate a value and then store it.
-<nowiki>
 ```
 x = 10 + 5   # assignment statement with an expression
 print(x)     # 15
 ```
-</nowiki>
 
 3. Function calls<br/>
 Calling a function is also an expression statement.
-<nowiki>
 ```
 print("Hello, World!")   # function call as a statement
 
@@ -276,7 +253,6 @@ name = "Alice"
 length = len(name)       # function call used in assignment
 print(length)            # 5
 ```
-</nowiki>
 
 **Summary**
 
@@ -314,7 +290,6 @@ Match Statement take an expression and compare it’s value to successive patter
 
 - Case Values : <br />
 literlals booleans, numbers, strings, enums
-<nowiki>
 ```
 status = 404
 
@@ -328,11 +303,10 @@ match status:
     case _:
         print("Unknown Status")  # wildcard case
 ```
-</nowiki>
 
 - Case Patterns<br/>
 structures like sequences, mappings, classes, gurded patterns<br/>
-<nowiki>
+
 `sequence`
 ```
 data = [1, 2, 3]
@@ -350,4 +324,3 @@ match person:
     case {"name": name, "age": age}:
         print(f"{name} is {age} years old")
 ```
-</nowiki>
