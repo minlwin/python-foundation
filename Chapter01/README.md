@@ -2,7 +2,8 @@
 
 This chapter introduces the Python development workflow. You will learn how to set up your environment, write and run Python programs, create tests with pytest, and debug code in VS Code.
 
-## 🎯 Target of this chapter
+## 🎯 Objectives
+
 By the end of this chapter, you will be able to:
 
 - Set up a Python development environment

@@ -1,4 +1,4 @@
-# Chapter 2 : Variable and Basic Data Types Assignment 
+# Chapter 2 Assignment - Variable and Basic Data Types
 
 ## 🎯 Instructions
 

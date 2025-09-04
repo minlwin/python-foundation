@@ -9,7 +9,7 @@ Before we can fully understand statements, we need to look at two important idea
 
 Once we understand expressions and operators, we will see how they come together in different types of statements, such as assignments, decisions, and loops. These statements are the tools we use to build programs step by step.
 
-**Target of this Chapter**
+## 🎯 Objectives
 
 By the end of this chapter, you will be able to:
 
@@ -505,6 +505,8 @@ def todo():
 - No Operation Statement (pass) is a placeholder that does nothing.
 - The match statement in Python provides powerful pattern matching with literals, sequences, mappings, classes, wildcards, and guards.
 
-
-
 > We will cover Function and Class definitions, as well as Import statements, in the upcoming chapters.
+
+
+After learning about this chapter, you have to try assignment.<br/>
+[Got to Assignment](assignment/README.md)

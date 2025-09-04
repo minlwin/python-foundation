@@ -2,11 +2,12 @@
 
 In this chapter, we will explore one of the fundamental concepts in Python: variables and basic data types. Variables are used to store data that your program can manipulate, while data types define the kind of values a variable can hold, such as numbers, text, or logical values.
 
-We will cover:
-- How to create and name variables properly.
-- Python’s basic data types, including integers, floats, strings, and booleans.
-- Type conversion and type checking.
-- Understanding mutable and immutable types.
+## 🎯 Objectives
+
+1. How to create and name variables properly.
+2. Python’s basic data types, including integers, floats, strings, and booleans.
+3. Type conversion and type checking.
+4. Understanding mutable and immutable types.
 
 By the end of this chapter, you will have a solid understanding of how Python stores and manages data, which is essential for writing programs that are both correct and maintainable.
 
